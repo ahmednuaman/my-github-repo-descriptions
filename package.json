@@ -1,0 +1,29 @@
+{
+  "name": "my-github-repo-descriptions",
+  "version": "1.0.0",
+  "description": "A little script that grabs all you github repos' descriptions",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmednuaman/my-github-repo-descriptions.git"
+  },
+  "keywords": [
+    "github",
+    "punch",
+    "card"
+  ],
+  "author": "Ahmed Nuaman (ahmed@ahmednuaman.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmednuaman/my-github-repo-descriptions/issues"
+  },
+  "homepage": "https://github.com/ahmednuaman/my-github-repo-descriptions#readme",
+  "dependencies": {
+    "github": "^0.2.4",
+    "its-thinking": "0.0.4",
+    "yargs": "^3.9.1"
+  }
+}
